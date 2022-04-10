@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+
+  /* for development */
+  _outline: 2px solid red;
+}
 h1,
 h2,
 h3 {
@@ -7,9 +13,14 @@ h3 {
 }
 
 body {
+  height: 100vh;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 100;
   color: var(--color);
-  background-color: var(--background-color-base);
+  background: var(--background-color-base);
   padding: 1.5rem;
+}
+
+.hidden {
+  display: none;
 }
