@@ -6,6 +6,7 @@
   border: none;
   box-shadow: var(--shadow-light);
   border-radius: var(--border-radius);
+  color: var(--color-cta);
 }
 
 .button:hover {
