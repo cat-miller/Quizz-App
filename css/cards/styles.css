@@ -1,0 +1,34 @@
+@import url("../styles.css");
+
+.card {
+  display: grid;
+  background-color: var(--background-color-cards);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+}
+
+.card__button {
+  width: 10rem;
+  justify-self: center;
+}
+
+.card__answer--hidden {
+  display: none;
+}
+
+.card__tagwrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.card__tagwrapper > span {
+  background-color: var(--background-color-tags);
+  color: var(--color-tags);
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--border-radius);
+  font-size: 0.9rem;
+  box-shadow: var(--shadow-light);
+}

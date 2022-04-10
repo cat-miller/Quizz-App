@@ -1,0 +1,14 @@
+@import url("../styles.css");
+
+.button {
+  background-color: var(--background-color-cta);
+  height: 2rem;
+  border: none;
+  box-shadow: var(--shadow-light);
+  border-radius: var(--border-radius);
+}
+
+.button:hover {
+  background-color: var(--background-color-cta-hover);
+  transition: all 0.3s;
+}

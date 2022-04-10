@@ -1,0 +1,18 @@
+body {
+  --background-color-base: whitesmoke;
+  --background-color-marginals: grey;
+  --background-color-cards: white;
+  --background-color-tags: rebeccapurple;
+  --background-color-cta: hotpink;
+  --background-color-cta-hover: pink;
+
+  --color: rgb(10, 6, 6);
+  --color-marginals: purple;
+  --color-cards: pink;
+  --color-tags: teal;
+  --color-cta: hotpink;
+
+  --border-radius: 5px;
+  --shadow: 7px 7px 10px 5px rgba(0, 0, 0, 0.5);
+  --shadow-light: 3px 2px 5px rgba(0, 0, 0, 0.5);
+}
