@@ -1,0 +1,9 @@
+@import url("../styles.css");
+.header {
+  display: grid;
+  justify-items: center;
+  background-color: var(--background-color-marginals);
+  height: 6.5rem;
+  padding: 0.5rem;
+  gap: 0.3rem;
+}
