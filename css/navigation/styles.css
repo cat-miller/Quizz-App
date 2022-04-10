@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigation__anchor {
+  border-right: 1px solid pink;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation__anchor:last-child {
+  border-right: none;
+}
+
+.navigation__anchor:hover {
+  background-color: powderblue;
+}
+
+.navigation__svg {
+  fill: pink;
+  height: 3.5rem;
+  padding: 0.5rem;
+}
+
+.navigation__svg--active {
+  fill: hotpink;
+}
