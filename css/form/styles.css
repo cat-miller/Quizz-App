@@ -1,0 +1,23 @@
+@import url("../styles.css");
+.form {
+  display: grid;
+  gap: 2rem;
+}
+
+.form > label {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.form__input {
+  border-radius: var(--border-radius);
+  border: none;
+  padding: 0.5rem;
+}
+
+.form__button {
+  height: 3.5rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  justify-self: center;
+}
