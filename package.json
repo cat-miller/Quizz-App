@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cat-miller/Quizz-App/issues"
   },
-  "homepage": "https://github.com/cat-miller/Quizz-App#readme"
+  "homepage": "https://github.com/cat-miller/Quizz-App#readme",
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
+  }
 }
