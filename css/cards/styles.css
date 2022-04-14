@@ -13,15 +13,15 @@
 .card__bookmark {
   width: 2.5rem;
   position: absolute;
-  right: 2rem;
-  top: -1rem;
+  right: 1.5rem;
+  top: -1.5rem;
 }
 .card__bookmark--svg-checked {
   fill: hotpink;
 }
 
 .card__bookmark--svg {
-  fill: hotpink;
+  fill: pink;
 }
 
 .card__button {

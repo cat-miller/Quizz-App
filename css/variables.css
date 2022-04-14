@@ -1,6 +1,11 @@
 body {
-  --background-color-base: linear-gradient(to top, #9796f0, #fbc7d4);
-  --background-color-marginals: rgb(248, 93, 227);
+  --background-color-base: linear-gradient(
+    to bottom,
+    #6fa0f9,
+    #97cdfe,
+    #fef0ff
+  );
+  --background-color-marginals: #6c43e9;
   --background-color-cards: rgb(165, 239, 249);
   --background-color-tags: rgb(219, 190, 249);
   --background-color-cta: rgb(250, 182, 216);

@@ -1,6 +1,7 @@
 .navigation {
   display: flex;
   justify-content: space-evenly;
+  background-color: var(--background-color-marginals);
 }
 
 .navigation__anchor {

@@ -2,3 +2,10 @@
 @import url("base.css");
 @import url("buttons/styles.css");
 @import url("cards/styles.css");
+@import url("title/styles.css");
+@import url("navigation/styles.css");
+@import url("quizzapp/styles.css");
+@import url("bookmarks/styles.css");
+@import url("form/styles.css");
+@import url("create/styles.css");
+@import url("profile/styles.css");
