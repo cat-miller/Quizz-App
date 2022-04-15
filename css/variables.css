@@ -6,20 +6,18 @@ body {
     #fef0ff
   );
   --background-color-marginals: #6c43e9;
-  --background-color-cards: rgb(165, 239, 249);
-  --background-color-tags: rgb(219, 190, 249);
-  --background-color-cta: rgb(250, 182, 216);
-  --background-color-cta-hover: rgb(221, 192, 255);
-
-  --color: rgb(247, 0, 194);
+  --background-color-cards: rgb(165 239 249);
+  --background-color-tags: rgb(219 190 249);
+  --background-color-cta: rgb(250 182 216);
+  --background-color-cta-hover: rgb(221 192 255);
+  --color: rgb(247 0 194);
   --color-marginals: purple;
   --color-cards: pink;
-  --color-tags: rgb(183, 0, 255);
+  --color-tags: rgb(183 0 255);
   --color-cta: hotpink;
   --color-bookmarks: yellow;
-
   --border: 2px solid pink;
   --border-radius: 15px;
-  --shadow: 7px 7px 10px 5px rgba(244, 4, 208, 0.5);
-  --shadow-light: 3px 2px 5px rgba(244, 4, 208, 0.5);
+  --shadow: 7px 7px 10px 5px rgba(244 4 208 50%);
+  --shadow-light: 3px 2px 5px rgba(244 4 208 50%);
 }
