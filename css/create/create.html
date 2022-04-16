@@ -4,40 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/styles.css" />
-    <title>PROFILE</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>CREATE</title>
   </head>
-  <body>
+  <body class="body__create">
     <header>
       <header class="header">
-        <h1>PROFILE</h1>
+        <h1>CREATE</h1>
         <h2>She-Ra Edition</h2>
       </header>
     </header>
-    <main class="main__profile">
-      <figure class="profile__figure">
-        <img
-          class="profile__img"
-          src="/public/PortraitSocialMedia.jpg"
-          alt="Portrait of user."
-        />
-        <figcaption>Cat Miller</figcaption>
-      </figure>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore illum
-        officiis fugit harum numquam eum quos nisi nostrum quam, vitae obcaecati
-        rem. Deserunt placeat fugit asperiores itaque fugiat sit hic magni est
-        exercitationem, qui amet sequi nisi corporis officia officiis libero
-        quisquam blanditiis rem! Perferendis nulla iste illo porro error.
-      </p>
-      <div class="card__tagwrapper">
-        <span>Gardening</span>
-        <span>Knitting</span>
-        <span>Crocheting</span>
-        <span>Painting</span>
-        <span>Gaming</span>
-      </div>
-      <button class="button">LOGOUT</button>
+    <main class="main__create">
+      <form class="form">
+        <label>
+          ADD QUESTION:
+          <textarea
+            class="form__input"
+            name="question"
+            rows="3"
+            required
+          ></textarea>
+        </label>
+        <label>
+          ADD ANSWER
+          <textarea
+            class="form__input"
+            name="answer"
+            rows="3"
+            required
+          ></textarea>
+        </label>
+        <label>
+          ADD TAGS
+          <input
+            class="form__input"
+            name="tags"
+            placeholder="Add tags devided by comma."
+          />
+        </label>
+        <button class="button form__button" type="submit">SUBMIT</button>
+      </form>
     </main>
     <footer>
       <nav class="navigation">
