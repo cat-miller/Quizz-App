@@ -30,3 +30,7 @@
 .navigation__svg--active {
   fill: hotpink;
 }
+
+.hidden {
+  display: none;
+}

@@ -20,11 +20,15 @@ h2 {
 
 body {
   margin: 0;
-  height: 100vh;
+  height: 99vh;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
   color: var(--color);
   background: var(--background-color-base);
+}
+
+footer {
+  overflow: hidden;
 }
 
 .hidden {
