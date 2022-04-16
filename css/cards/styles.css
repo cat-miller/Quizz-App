@@ -1,11 +1,10 @@
-@import url("../styles.css");
+@import url('../styles.css');
 
 .card {
   display: grid;
   background-color: var(--background-color-cards);
   box-shadow: var(--shadow);
   border-radius: var(--border-radius);
-
   padding: 1rem;
   position: relative;
 }
@@ -16,6 +15,7 @@
   right: 1.5rem;
   top: -1.5rem;
 }
+
 .card__bookmark--svg-checked {
   fill: hotpink;
 }

@@ -1,0 +1,32 @@
+{
+  "name": "quizz-app",
+  "version": "1.0.0",
+  "description": "a small quiz app to learn web technologies",
+  "main": "index.html",
+  "scripts": {
+    "eslint": "eslint \"**/*.js\"",
+    "stylelint": "stylelint \"**/*.css\"",
+    "htmlhint": "htmlhint \"**/*.html\"",
+    "test": "npm run htmlhint && npm run stylelint && npm run eslint",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cat-miller/Quizz-App.git"
+  },
+  "author": "Carolin Möller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cat-miller/Quizz-App/issues"
+  },
+  "homepage": "https://github.com/cat-miller/Quizz-App#readme",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "htmlhint": "^1.1.4",
+    "husky": "^7.0.0",
+    "stylelint": "^14.6.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0",
+    "prettier": "^2.6.2"
+  }
+}
