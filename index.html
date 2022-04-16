@@ -116,6 +116,63 @@
         </div>
       </section>
     </main>
+    <main class="main_bookmarks hidden"></main>
+    <main class="main__create hidden">
+      <form class="form">
+        <label>
+          ADD QUESTION:
+          <textarea
+            class="form__input"
+            name="question"
+            rows="3"
+            required
+          ></textarea>
+        </label>
+        <label>
+          ADD ANSWER
+          <textarea
+            class="form__input"
+            name="answer"
+            rows="3"
+            required
+          ></textarea>
+        </label>
+        <label>
+          ADD TAGS
+          <input
+            class="form__input"
+            name="tags"
+            placeholder="Add tags devided by comma."
+          />
+        </label>
+        <button class="button form__button" type="submit">SUBMIT</button>
+      </form>
+    </main>
+    <main class="main__profile hidden">
+      <figure class="profile__figure">
+        <img
+          class="profile__img"
+          src="/public/PortraitSocialMedia.jpg"
+          alt="Portrait of user."
+        />
+        <figcaption>Cat Miller</figcaption>
+      </figure>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore illum
+        officiis fugit harum numquam eum quos nisi nostrum quam, vitae obcaecati
+        rem. Deserunt placeat fugit asperiores itaque fugiat sit hic magni est
+        exercitationem, qui amet sequi nisi corporis officia officiis libero
+        quisquam blanditiis rem! Perferendis nulla iste illo porro error.
+      </p>
+      <div class="card__tagwrapper">
+        <span>Gardening</span>
+        <span>Knitting</span>
+        <span>Crocheting</span>
+        <span>Painting</span>
+        <span>Gaming</span>
+      </div>
+      <button class="button">LOGOUT</button>
+    </main>
     <footer>
       <nav class="navigation">
         <a class="navigation__anchor" href="../../index.html" aria-label="Home">

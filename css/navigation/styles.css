@@ -4,18 +4,20 @@
   background-color: var(--background-color-marginals);
 }
 
-.navigation__anchor {
+.navigation__button {
+  border: none;
+  background-color: none;
   border-right: 1px solid pink;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.navigation__anchor:last-child {
+.navigation__button:last-child {
   border-right: none;
 }
 
-.navigation__anchor:hover {
+.navigation__button:hover {
   background-color: powderblue;
 }
 
@@ -27,4 +29,8 @@
 
 .navigation__svg--active {
   fill: hotpink;
+}
+
+.hidden {
+  display: none;
 }
