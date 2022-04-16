@@ -7,9 +7,13 @@
   border-radius: var(--border-radius);
   padding: 1rem;
   position: relative;
+  margin-top: 1.5rem;
 }
 
 .card__bookmark {
+  border: none;
+  background-color: transparent;
+  padding: 0;
   width: 2.5rem;
   position: absolute;
   right: 1.5rem;
