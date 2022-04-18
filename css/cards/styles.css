@@ -20,12 +20,12 @@
   top: -1.5rem;
 }
 
-.card__bookmark--svg-checked {
-  fill: hotpink;
-}
-
 .card__bookmark--svg {
   fill: pink;
+}
+
+.card__bookmark--svg-active {
+  fill: hotpink;
 }
 
 .card__button {
